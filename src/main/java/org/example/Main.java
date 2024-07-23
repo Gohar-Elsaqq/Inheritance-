@@ -1,5 +1,7 @@
 package org.example;
 
+import Inheritance.ElectricCar;
+
 public class Main {
     public static void main(String[] args) {
         Animal genericAnimal = new Animal("Generic Animal");
@@ -11,4 +13,5 @@ public class Main {
         System.out.println(dog.getName());
         dog.makeSound(); // Output: Woof
     }
+
 }
